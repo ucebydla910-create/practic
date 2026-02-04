@@ -69,18 +69,15 @@ public class JavaTasks {
         }
         System.out.println("]");
 
-        // Сумма элементов
         int sum = 0;
         for (int i = 0; i < numbers.length; i++) {
             sum += numbers[i];
         }
         System.out.println("Сумма элементов: " + sum);
 
-        // Среднее арифметическое
         double average = (double) sum / numbers.length;
         System.out.println("Среднее арифметическое: " + average);
 
-        // Максимальный элемент
         int max = numbers[0];
         for (int i = 1; i < numbers.length; i++) {
             if (numbers[i] > max) {
